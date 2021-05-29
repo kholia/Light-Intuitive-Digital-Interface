@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LM-NP-1001-B1L)(type Legacy)(uri ${KIPRJMOD}/libraries/LM-NP-1001-B1L.lib)(options "")(descr ""))
+  (lib (name LiDi-rescue)(type Legacy)(uri ${KIPRJMOD}/LiDi-rescue.lib)(options "")(descr ""))
+)

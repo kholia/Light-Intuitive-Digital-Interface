@@ -1,0 +1,107 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_AudioJack3
+#
+DEF Connector_AudioJack3 J 0 20 Y Y 1 F N
+F0 "J" 0 350 50 H V C CNN
+F1 "Connector_AudioJack3" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jack*
+$ENDFPLIST
+DRAW
+S -200 -200 -250 -100 0 1 10 F
+S 100 150 -200 -200 0 1 10 f
+P 4 0 1 10 0 -100 25 -125 50 -100 100 -100 N
+P 5 0 1 10 -75 -100 -50 -125 -25 -100 -25 0 100 0 N
+P 5 0 1 10 100 100 -100 100 -100 -100 -125 -125 -150 -100 N
+X ~ R 200 0 100 L 50 50 1 1 P
+X ~ S 200 100 100 L 50 50 1 1 P
+X ~ T 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_Jumper_NC_Small
+#
+DEF Device_Jumper_NC_Small JP 0 30 N N 1 F N
+F0 "JP" 0 80 50 H V C CNN
+F1 "Device_Jumper_NC_Small" 10 -60 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Bridged*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A 0 -10 57 450 1350 0 1 0 N 40 30 -40 30
+C -40 0 20 0 1 0 N
+C 40 0 20 0 1 0 N
+X 1 1 -100 0 40 R 50 50 0 1 P
+X 2 2 100 0 40 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LM-NP-1001-B1L_LM-NP-1001-B1L-Mod
+#
+DEF LM-NP-1001-B1L_LM-NP-1001-B1L-Mod T 0 30 Y Y 1 F N
+F0 "T" 650 300 50 H V L CNN
+F1 "LM-NP-1001-B1L_LM-NP-1001-B1L-Mod" 650 200 50 H V L CNN
+F2 "LMNP1001B1L" 650 100 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/LMNPLP.pdf" 650 0 50 H I L CNN
+F4 "BOURNS - LM-NP-1001-B1L - TRANSFORMER, LINE-MATCHING 1:1, 2.8H" 650 -100 50 H I L CNN "Description"
+F5 "12" 650 -200 50 H I L CNN "Height"
+F6 "Bourns" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM-NP-1001-B1L" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "LM-NP-1001-B1L" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/lm-np-1001-b1l/bourns" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "652-LM-NP-1001-B1L" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Bourns/LM-NP-1001-B1L?qs=ulUe94RKhgtJXLP5iCDxaA%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+X 5 5 800 0 200 L 50 50 0 0 P
+X 8 8 800 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

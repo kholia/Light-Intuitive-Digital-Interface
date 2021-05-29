@@ -1,0 +1,52 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LM-NP-1001-B1L
+#
+DEF LM-NP-1001-B1L T 0 30 Y Y 1 F N
+F0 "T" 650 300 50 H V L CNN
+F1 "LM-NP-1001-B1L" 650 200 50 H V L CNN
+F2 "LMNP1001B1L" 650 100 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/LMNPLP.pdf" 650 0 50 H I L CNN
+F4 "BOURNS - LM-NP-1001-B1L - TRANSFORMER, LINE-MATCHING 1:1, 2.8H" 650 -100 50 H I L CNN "Description"
+F5 "12" 650 -200 50 H I L CNN "Height"
+F6 "Bourns" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM-NP-1001-B1L" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "LM-NP-1001-B1L" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/lm-np-1001-b1l/bourns" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "652-LM-NP-1001-B1L" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Bourns/LM-NP-1001-B1L?qs=ulUe94RKhgtJXLP5iCDxaA%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 800 -100 200 L 50 50 0 0 P
+X 4 4 0 -100 200 R 50 50 0 0 P
+X 5 5 0 0 200 R 50 50 0 0 P
+X 8 8 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# LM-NP-1001-B1L-Mod
+#
+DEF LM-NP-1001-B1L-Mod T 0 30 Y Y 1 F N
+F0 "T" 650 300 50 H V L CNN
+F1 "LM-NP-1001-B1L-Mod" 650 200 50 H V L CNN
+F2 "LMNP1001B1L" 650 100 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/LMNPLP.pdf" 650 0 50 H I L CNN
+F4 "BOURNS - LM-NP-1001-B1L - TRANSFORMER, LINE-MATCHING 1:1, 2.8H" 650 -100 50 H I L CNN "Description"
+F5 "12" 650 -200 50 H I L CNN "Height"
+F6 "Bourns" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM-NP-1001-B1L" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "LM-NP-1001-B1L" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/lm-np-1001-b1l/bourns" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "652-LM-NP-1001-B1L" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Bourns/LM-NP-1001-B1L?qs=ulUe94RKhgtJXLP5iCDxaA%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+X 5 5 800 0 200 L 50 50 0 0 P
+X 8 8 800 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library
